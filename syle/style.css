@@ -33,6 +33,34 @@ nav li > a:hover {
   color: black;
   transition: all 0.3s ease;
 }
+.onehead {
+  position: relative;
+}
+.heromac {
+  position: absolute;
+  bottom: 95px;
+  left: 190px;
+  object-fit: cover;
+  width: 120px;
+  z-index: 3;
+}
+.heromac1 {
+  position: absolute;
+  bottom: 27px;
+  object-fit: cover;
+  width: 70px;
+}
+.twohead1 {
+  position: relative;
+}
+.heromac3 {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  width: 45px;
+
+  right: 205px;
+}
 @media (max-width: 768px) {
   nav {
     position: static;
